@@ -1,0 +1,47 @@
+.NameBox{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+
+}
+.square{
+    text-align: left;
+    padding: 1vw;
+    background-color: rgb(249, 240, 153);
+    margin: 1vh;
+    font-size:  clamp(1vh, 5vw, 4vh);
+    border: black solid 1px;
+    border-radius: 1vh;
+    box-shadow: black 2px 4px 10px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+     -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+.ReversBox{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+
+}
+.reverssquare{
+    text-align: left;
+    padding: 1vw;
+    margin: 1vh;
+    font-size:  clamp(1vh, 5vw, 4vh);
+    border-radius: 1vh;
+    transform: rotate(180deg);
+    background-color: none;
+    font-family: "Alfa Slab One", serif;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+     -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+
