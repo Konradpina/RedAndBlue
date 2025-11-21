@@ -10,7 +10,7 @@
     padding: 1vw;
     background-color: rgb(249, 240, 153);
     margin: 1vh;
-    font-size:  clamp(1vh, 5vw, 4vh);
+    font-size:   clamp(1vh, 7vh, 5vh);
     border: black solid 1px;
     border-radius: 1vh;
     box-shadow: black 2px 4px 10px;
@@ -33,7 +33,7 @@
     text-align: left;
     padding: 1vw;
     margin: 1vh;
-    font-size:  clamp(1vh, 5vw, 4vh);
+    font-size:  clamp(1vh, 7vh, 5vh);
     border-radius: 1vh;
     transform: rotate(180deg);
     background-color: none;
